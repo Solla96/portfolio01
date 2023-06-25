@@ -1,0 +1,139 @@
+/* ALL */
+body {
+  font-family:Arial,"Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo,
+  sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.8s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 1170px;
+  height: auto;
+  padding: 0 30px;
+}
+
+/* header */
+.header{
+  padding: 50px 0;
+}
+
+.header_logo{
+  width: 280px;
+  margin:0 auto;
+}
+/* main-visual */
+.main_visual {
+  text-align: center;
+}
+/* global_link */
+.global_link {
+  padding:40px 0;
+}
+.global_link ul{
+  display: flex;
+  justify-self: center;
+}
+.global_link ul li {
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  margin-right: 80px;
+  list-style: none;
+  margin: 0 auto;
+}
+/* contents */
+ /* concept */
+ 
+ .concept {
+  float: left;
+  padding: 50px 0;
+ }
+ .concept > .container{
+  display: flex;
+  align-items: center;
+ }
+.concept.main_image {
+  width: 50%;
+}
+.concept .message {
+  width: 50%;
+  padding-right: 20px;
+  padding-left: 40px;
+}
+.concept .message h4 {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+.concept .message h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  color: #24a8bf;
+  margin-bottom: 30px;
+}
+.concept .message p {
+  font-size: 16px;
+}
+
+.article_list {
+  padding: 50px 0;
+}
+.article_list .heading {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  color:#24a8bf;
+  text-align: center;
+  margin-top: 8px;
+}
+.article_list .heading p{
+  display: block;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #333;
+  margin-top: 8px;
+}
+.article_list .list {
+  display: flex;
+  justify-content: center;
+}
+.article_list .list .article {
+  width: calc(100% / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.btn {
+  display: block;
+  position: relative;
+  width: 220px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1;
+  color: #24a8bf;
+  margin: 0 auto;
+  padding: 18px 0;
+  transition: opacity 0.3s;
+  border: 1px solid #24a8bf;
+  border-radius: 3px;
+  text-align: center;
+}
